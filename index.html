@@ -16,8 +16,20 @@
 </head>
 
 <body>
-    <h1>Contractor Account Setup</h1>
+    <!--This is the header for the document-->
+    <div class="container">
+        <div class="row">
+            <!--Logo attached-->
+            <div class="col-2">
+                <img src="./assets/images/logo.jpg" alt="Logo" id="logo">
+            </div>
+            <div class="col-8">
+                <h1>Contractor Account Setup</h1>
+            </div>
+        </div>
+    </div>
     <br/>
+    <!--Container starts for the first form-->
     <div class="container">
         <div class="row">
             <div class="col-2">
@@ -35,8 +47,22 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="businessPhoneNumber1">Business Phone Number</label>
-                                        <input type="text" class="form-control" id="businessPhoneNumber1" placeholder="999-999-999">
+                                        <label for="mainOfficePhoneNumber1">Main Office Phone Number</label>
+                                        <input type="text" class="form-control" id="mainOfficePhoneNumber1" placeholder="999-999-9999">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="receptionistName1">Receptionist Name</label>
+                                        <input type="text" class="form-control" id="receptionistName1" placeholder="Betty Joan">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="receptionistEmail1">Receptionist Email</label>
+                                        <input type="text" class="form-control" id="receptionistEmail1" placeholder="someone@company.com">
                                     </div>
                                 </div>
                             </div>
@@ -128,22 +154,46 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="supplyChainManagement1">Supply Chain Management</label>
-                                        <input type="text" class="form-control" id="supplyChainManagement1" placeholder="Jane Doe">
+                                        <label for="supplyChainName1">Supply Chain Manager Name</label>
+                                        <input type="text" class="form-control" id="supplyChainName1" placeholder="Lindsay Smith">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="accounting1">Accounting</label>
-                                        <input type="text" class="form-control" id="accounting1" placeholder="Amy Smith">
+                                        <label for="supplyChainPhone1">Supply Chain Phone Number</label>
+                                        <input type="text" class="form-control" id="supplyChainPhone1" placeholder="999-999-9999">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"> </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="supplyChainEmail1">Supply Chain Email</label>
+                                        <input type="text" class="form-control" id="supplyChainEmail1" placeholder="someone@corporate.com">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="mainOfficeEmail1">Main Office Email</label>
-                                        <input type="text" class="form-control" id="mainOfficeEmail1" placeholder="someone@corporate.com">
+                                        <label for="accountingName1">Accounting Name</label>
+                                        <input type="text" class="form-control" id="accountingName1" placeholder="Lindsay Smith">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="accountingPhone1">Accounting Phone Number</label>
+                                        <input type="text" class="form-control" id="accountingPhone1" placeholder="999-999-9999">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"> </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="accountingEmail1">Accounting Email</label>
+                                        <input type="text" class="form-control" id="accountingEmail1" placeholder="someone@corporate.com">
                                     </div>
                                 </div>
                             </div>
@@ -166,91 +216,101 @@
                         <form>
                             <div class="row">
                                 <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="signatoryName1">Signatory Name #1</label>
+                                        <input type="text" class="form-control" id="signatoryName1" placeholder="Tom Sawyer">
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Contractor Business Name</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Snow">
+                                        <label for="signatoryName2">Signatory Name #2</label>
+                                        <input type="text" class="form-control" id="signatoryName2" placeholder="Johnny Appleseed">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="signatoryName3">Signatory Name #3</label>
+                                        <input type="text" class="form-control" id="signatoryName3" placeholder="Susan Ride">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory Name #1</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tom Sawyer">
+                                        <label for="signatoryTitle1">Signatory #1 Title</label>
+                                        <input type="text" class="form-control" id="signatoryTitle1" placeholder="CEO">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory Name #2</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Johnny Appleseed">
+                                        <label for="signatoryTitle2">Signatory #2 Title</label>
+                                        <input type="text" class="form-control" id="signatoryTitle2" placeholder="VP of Sales">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory Name #3</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Susan Ride">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #1 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #2 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #3 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
+                                        <label for="signatoryTitle3">Signatory #3 Title</label>
+                                        <input type="text" class="form-control" id="signatoryTitle3" placeholder="CIO">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #1 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="tsawyer@corporate.com">
+                                        <label for="signatoryPhone1">Signatory #1 - Phone Number</label>
+                                        <input type="text" class="form-control" id="signatoryPhone1" placeholder="999-999-9999">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #2 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="jappleseed@corporate.com">
+                                        <label for="signatoryPhone2">Signatory #2 - Phone Number</label>
+                                        <input type="text" class="form-control" id="signatoryPhone2" placeholder="999-999-9999">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="signatoryPhone3">Signatory #3 - Phone Number</label>
+                                        <input type="text" class="form-control" id="signatoryPhone3" placeholder="999-999-9999">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="signatoryEmail1">Signatory #1 Email</label>
+                                        <input type="text" class="form-control" id="signatoryEmail1" placeholder="tsawyer@corporate.com">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="signatoryEmail2">Signatory #2 Email</label>
+                                        <input type="text" class="form-control" id="signatoryEmail2" placeholder="jappleseed@corporate.com">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Signatory #3 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="sride@corporate.com">
+                                        <input type="text" class="form-control" id="signatoryEmail3" placeholder="sride@corporate.com">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #1 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="signatoryPassword1">Signatory #1 Password</label>
+                                        <input type="text" class="form-control" id="signatoryPassword1" placeholder="*******">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #2 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="signatoryPassword2">Signatory #2 Password</label>
+                                        <input type="text" class="form-control" id="signatoryPassword2" placeholder="*******">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Signatory #3 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="signatoryPassword3">Signatory #3 Password</label>
+                                        <input type="text" class="form-control" id="signatoryPassword3" placeholder="*******">
                                     </div>
                                 </div>
                             </div>
@@ -273,91 +333,81 @@
                         <form>
                             <div class="row">
                                 <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="administratorName1">Administrator Name #1</label>
+                                        <input type="text" class="form-control" id="administratorName1" placeholder="Tom Sawyer">
+                                    </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Contractor Business Name</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Snow">
+                                        <label for="administratorName2">Administrator Name #2</label>
+                                        <input type="text" class="form-control" id="administratorName2" placeholder="Johnny Appleseed">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="administratorName3">Administrator Name #3</label>
+                                        <input type="text" class="form-control" id="administratorName3" placeholder="Susan Ride">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator Name #1</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tom Sawyer">
+                                        <label for="administrator1Phone">Administrator #1 - Phone Number</label>
+                                        <input type="text" class="form-control" id="administrator1Phone" placeholder="999-999-9999">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator Name #2</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Johnny Appleseed">
+                                        <label for="administrator2Phone">Administrator #2 - Phone Number</label>
+                                        <input type="text" class="form-control" id="administrator2Phone" placeholder="999-999-9999">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator Name #3</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Susan Ride">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #1 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #2 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #3 - Phone Number</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="999-999-999">
+                                        <label for="administrator3Phone">Administrator #3 - Phone Number</label>
+                                        <input type="text" class="form-control" id="administrator3Phone" placeholder="999-999-9999">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #1 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="tsawyer@corporate.com">
+                                        <label for="administrator1Email">Administrator #1 Email</label>
+                                        <input type="text" class="form-control" id="administrator1Email" placeholder="tsawyer@corporate.com">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #2 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="jappleseed@corporate.com">
+                                        <label for="administrator2Email">Administrator #2 Email</label>
+                                        <input type="text" class="form-control" id="administrator2Email" placeholder="jappleseed@corporate.com">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #3 Email</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="sride@corporate.com">
+                                        <label for="administrator3Email">Administrator #3 Email</label>
+                                        <input type="text" class="form-control" id="administrator3Email" placeholder="sride@corporate.com">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator#1 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="administrator1Password">Administrator#1 Password</label>
+                                        <input type="text" class="form-control" id="administrator1Password" placeholder="*******">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #2 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="administrator2Password">Administrator #2 Password</label>
+                                        <input type="text" class="form-control" id="eadministrator2Password" placeholder="*******">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Administrator #3 Password</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="*******">
+                                        <label for="administrator3Password">Administrator #3 Password</label>
+                                        <input type="text" class="form-control" id="administrator3Password" placeholder="*******">
                                     </div>
                                 </div>
                             </div>
@@ -368,6 +418,7 @@
         </div>
     </div>
     <br/>
+    <!-- Button Container -->
     <div class="container">
         <div class="row">
             <div class="col-1"></div>

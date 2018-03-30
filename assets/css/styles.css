@@ -4,3 +4,7 @@ h1{
 h2{
     text-align: center;
 }
+#logo{
+    height: 60px;
+    width: 80px;
+}
